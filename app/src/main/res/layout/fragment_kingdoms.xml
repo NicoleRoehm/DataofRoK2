@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/kingdoms_item_recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kingdoms_fragment_materialtoolbar"
+        tools:itemCount="15"
+        tools:listitem="@layout/kingdom_item" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/kingdoms_fragment_materialtoolbar"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:background="@drawable/backroundtoolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="Kingdoms"
+        app:titleCentered="true" />
+
+    <ImageButton
+        android:id="@+id/kingdoms_fragment_filterbutton"
+        android:layout_width="28dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/kingdoms_fragment_unions_button"
+        app:layout_constraintEnd_toStartOf="@+id/kingdoms_fragment_unions_button"
+        app:layout_constraintTop_toTopOf="@+id/kingdoms_fragment_unions_button"
+        app:srcCompat="@drawable/vector"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/kingdoms_fragment_unions_button"
+        android:layout_width="28dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/kingdoms_fragment_search_button"
+        app:layout_constraintEnd_toStartOf="@+id/kingdoms_fragment_search_button"
+        app:layout_constraintTop_toTopOf="@+id/kingdoms_fragment_search_button"
+        app:srcCompat="@drawable/union"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/kingdoms_fragment_search_button"
+        android:layout_width="28dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/kingdoms_fragment_trailling_button"
+        app:layout_constraintEnd_toStartOf="@+id/kingdoms_fragment_trailling_button"
+        app:layout_constraintTop_toTopOf="@+id/kingdoms_fragment_trailling_button"
+        app:srcCompat="@drawable/search_icon"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/kingdoms_fragment_trailling_button"
+        android:layout_width="28dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/members_fragment_materialtoolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47"
+        app:srcCompat="@drawable/trailing_icon"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

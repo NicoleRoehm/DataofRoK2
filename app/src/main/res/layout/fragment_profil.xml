@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/profil_fragment_materialtoolbar"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:background="@drawable/backroundtoolbar"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="Niesi"
+        app:titleCentered="true" />
+
+    <ImageButton
+        android:id="@+id/profil_fragment_trailling_button"
+        android:layout_width="28dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_materialtoolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        app:srcCompat="@drawable/trailing_icon"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/profil_fragment_search_button"
+        android:layout_width="28dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_trailling_button"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_trailling_button"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_trailling_button"
+        app:srcCompat="@drawable/search_icon"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/profil_fragment_bag_button"
+        android:layout_width="28dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_search_button"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_search_button"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_search_button"
+        app:srcCompat="@drawable/bag"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/profil_fragment_image"
+        android:layout_width="133dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_materialtoolbar"
+        app:srcCompat="@drawable/profilbildvorschau" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="casual"
+        android:text="Name:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_image"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_image" />
+
+    <TextView
+        android:id="@+id/profil_fragment_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_text_name"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_name"
+        tools:text="Niesi" />
+
+    <TextView
+        android:id="@+id/profil_fragment_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_text_id"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_id"
+        tools:text="53585738" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Id:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_name"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_name"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_name" />
+
+    <TextView
+        android:id="@+id/Profil_fragment_text_kingdom"
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Kingdom:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_id"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_id" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Profil_fragment_text_kingdom"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_id"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_id"
+        app:layout_constraintTop_toTopOf="@+id/Profil_fragment_text_kingdom"
+        tools:text="1238" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_alliance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Alliance:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_image"
+        app:layout_constraintEnd_toEndOf="@+id/Profil_fragment_text_kingdom"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Profil_fragment_text_kingdom"
+        app:layout_constraintTop_toBottomOf="@+id/Profil_fragment_text_kingdom" />
+
+    <TextView
+        android:id="@+id/profil_fragment_alliance"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_alliance"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_alliance"
+        tools:text="Lele" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_currentlykills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="casual"
+        android:text="Currently Kills:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_image" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_t1kills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="T1:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_currentlykills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_T1kills"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_t1kills"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_text_t1kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_t1kills"
+        tools:text="17,718,642" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_t2kills"
+        android:layout_width="20dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="casual"
+        android:text="T2:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_t1kills"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_t1kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_t1kills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_t2kills"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_t2kills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_T1kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_T1kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_t2kills"
+        tools:text="1,840,064" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_t3kills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="T3:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_t2kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_t2kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_t2kills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_t3kills"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_t3kills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_t2kills"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_t2kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_t3kills"
+        tools:text="796,320" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_t4kills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="T4:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_t3kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_t3kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_t3kills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_t4kills"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_t4kills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_t3kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_t3kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_t4kills"
+        tools:text="26,256,197" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_t5kills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="T5:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_t4kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_t4kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_t4kills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_t5kills"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_t5kills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_t4kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_t4kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_t5kills"
+        tools:text="24,698,618" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_allkills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="all:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_t5kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_t5kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_t5kills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_allkills"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_allkills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_t5kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_t5kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_allkills"
+        tools:text="71,309,841" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_killpoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="Killpoints:"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_currentlykills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_allkills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_killpoints"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_killpoints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_text_killpoints"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_killpoints"
+        tools:text="766,943,466" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_deathtroops"
+        android:layout_width="102dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Death Troops:"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_killpoints" />
+
+    <TextView
+        android:id="@+id/profil_fragment_deathtroops"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_deathtroops"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_killpoints"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_killpoints"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_deathtroops"
+        tools:text="8.798.709" />
+
+    <TextView
+        android:id="@+id/profil_fragment_text_helpclicks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Help Clicks:"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_deathtroops"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_deathtroops"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_deathtroops" />
+
+    <TextView
+        android:id="@+id/profil_fragment_helpclicks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_deathtroops"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_deathtroops"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_deathtroops"
+        tools:text="122. 568" />
+
+    <Button
+        android:id="@+id/profil_fragment_statisticbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#09A16C"
+        android:text="Own Statistics Kvk"
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_helpclicks" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
