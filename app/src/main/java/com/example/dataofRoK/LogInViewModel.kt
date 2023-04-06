@@ -29,6 +29,14 @@ class LogInViewModel:ViewModel (){
     get() = _toast
 
 
+    fun signUp(email: String, password: String){
+        firebaseAuth.createUserWithEmailAndPassword(email,password)
+            .addOnCompleteListener {
+                if(it.isSuccessful){
+                    logIn(email,password)
+                }
+            }
+    }
     fun logIn (email:String, password:String){
 
         firebaseAuth.signInWithEmailAndPassword(email, password)
@@ -44,6 +52,12 @@ class LogInViewModel:ViewModel (){
                     _toast.value = null
                 }
             }
+    }
+
+    fun logOut (){
+
+        firebaseAuth.signOut()
+        _currentUser.value = firebaseAuth.currentUser
     }
 
 }

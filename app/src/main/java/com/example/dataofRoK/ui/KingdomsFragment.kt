@@ -28,7 +28,11 @@ class KingdomsFragment: Fragment() {
         _binding = FragmentKingdomsBinding.inflate(inflater,container,false)
         val view = binding.root
 
+        return view
+    }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         val kingdomAdapter = KingdomAdapter(viewModel.kingdoms.value!!)
         binding.kingdomsItemRecyclerview.adapter = kingdomAdapter
 
@@ -36,7 +40,6 @@ class KingdomsFragment: Fragment() {
             kingdomAdapter.submitList(it)
         }
 
-        return view
     }
 
 

@@ -4,21 +4,21 @@
     <item
         android:id="@+id/kingdomsFragment"
         android:icon="@drawable/casle_icon"
-        android:title="Kingdoms"/>
+        android:title="@string/Kingdoms" />
 
     <item
         android:id="@+id/membersFragment"
         android:icon="@drawable/mitglieder"
-        android:title="Members"/>
+        android:title="@string/Members" />
 
     <item
         android:id="@+id/homeFragment"
         android:icon="@drawable/home"
-        android:title="Home"/>
+        android:title="@string/Home" />
 
     <item
         android:id="@+id/profilFragment"
         android:icon="@drawable/profilicon"
-        android:title="Profil"/>
+        android:title="@string/Profil" />
 
 </menu>

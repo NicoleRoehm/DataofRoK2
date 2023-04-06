@@ -37,7 +37,6 @@ class MainFragment : Fragment() {
 
         viewModel.currentUser.observe(viewLifecycleOwner){
 
-            if(it == null)
                 findNavController().navigate(R.id.logInFragment)
         }
     }

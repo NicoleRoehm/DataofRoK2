@@ -59,6 +59,11 @@ class LogInFragment : Fragment() {
             }
 
         }
+
+        binding.loginFragmentRegistryButton.setOnClickListener {
+            findNavController()
+                .navigate(R.id.logInFragment_to_homeFragment)
+        }
     }
 
 

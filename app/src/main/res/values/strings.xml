@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">DataofRoK</string>
+    <string name="Kingdoms">Kingdoms</string>
+    <string name="Members">Members</string>
+    <string name="Home">Home</string>
+    <string name="Profil">Profil</string>
 </resources>
