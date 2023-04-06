@@ -64,6 +64,8 @@ class LogInFragment : Fragment() {
             findNavController()
                 .navigate(R.id.logInFragment_to_homeFragment)
         }
+
+
     }
 
 
