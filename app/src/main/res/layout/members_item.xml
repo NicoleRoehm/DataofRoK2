@@ -30,10 +30,11 @@
                 android:layout_width="62dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="4dp"
+                android:adjustViewBounds="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@drawable/profilbildvorschau" />
+                app:srcCompat="@drawable/bildschirm_foto_2023_02_01_um_09_53_17" />
 
             <TextView
                 android:id="@+id/member_item_text_name"

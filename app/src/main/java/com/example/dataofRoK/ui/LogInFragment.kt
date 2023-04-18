@@ -1,5 +1,6 @@
 package com.example.dataofRoK.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.DataofRoK.R
 import com.example.DataofRoK.databinding.FragmentLoginBinding
 import com.example.dataofRoK.LogInViewModel
+import com.example.dataofRoK.MainActivity
 
 
 class LogInFragment : Fragment() {
@@ -44,7 +46,8 @@ class LogInFragment : Fragment() {
         }
         viewModel.currentUser.observe(viewLifecycleOwner){
             if(it != null){
-                findNavController().navigate(R.id.homeFragment)
+                val intent = Intent(binding.root.context,MainActivity::class.java)
+                binding.root.context.startActivity(intent)
             }
         }
 
@@ -61,8 +64,7 @@ class LogInFragment : Fragment() {
         }
 
         binding.loginFragmentRegistryButton.setOnClickListener {
-            findNavController()
-                .navigate(R.id.action_logInFragment_to_homeFragment)
+
         }
 
 

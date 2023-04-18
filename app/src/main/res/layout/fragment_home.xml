@@ -56,7 +56,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_fragment_idtext"
-        tools:srcCompat="@drawable/profilbildvorschau" />
+        app:srcCompat="@drawable/bildschirm_foto_2023_02_01_um_09_53_17" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/home_fragment_materialtoolbar"

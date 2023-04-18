@@ -11,18 +11,36 @@ import kotlinx.coroutines.launch
 
 class MembersViewModel : ViewModel() {
 
-  private val repository = MembersRepository(GotApi)
+    private val repository = MembersRepository(GotApi)
 
-    val members : LiveData<List<Members>> = repository.members
+    val members: LiveData<List<Members>> = repository.members
 
     init {
         loadMembers()
     }
 
-    private fun loadMembers(){
+    private fun loadMembers() {
 
         viewModelScope.launch {
             repository.loadMembers()
         }
+    }
+
+    fun loadProfil(id: Long): Members {
+
+        if (!(id == (-1).toLong())) {
+            for (member in members.value!!) {
+
+                if (member.Id == id) {
+
+                    return member
+                }
+
+            }
+        }
+        return members.value!!.find { it ->
+            it.Id == (53585738).toLong()
+        }!!
+
     }
 }

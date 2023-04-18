@@ -1,7 +1,6 @@
 package com.example.dataofRoK.data.remote
 
 import com.example.dataofRoK.data.model.Members
-import com.example.dataofRoK.data.model.ServerResponse
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit
