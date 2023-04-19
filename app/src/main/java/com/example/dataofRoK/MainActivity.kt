@@ -21,5 +21,6 @@ class MainActivity : AppCompatActivity() {
         // Hook your navigation controller to bottom navigation view
         navView.setupWithNavController(navController)
 
+
     }
 }

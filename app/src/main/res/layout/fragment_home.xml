@@ -108,4 +108,16 @@
         app:layout_constraintStart_toStartOf="@+id/home_fragment_profilpicture"
         app:layout_constraintTop_toBottomOf="@+id/home_fragment_profilpicture" />
 
+    <TextView
+        android:id="@+id/home_fragment_id_text"
+        android:layout_width="24dp"
+        android:layout_height="23dp"
+        android:fontFamily="casual"
+        android:text="ID:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/home_fragment_idtext"
+        app:layout_constraintEnd_toStartOf="@+id/home_fragment_idtext"
+        app:layout_constraintTop_toTopOf="@+id/home_fragment_idtext" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
