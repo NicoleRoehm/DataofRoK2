@@ -7,7 +7,7 @@
     android:background="@drawable/backround">
 
     <TextView
-        android:id="@+id/profil_fragment_energy"
+        android:id="@+id/profil_fragment_kingdom_energy"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -15,14 +15,14 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_energy_text"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_energy_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/profil_fragment_energy_text"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_energy_text"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_kingdom_energy_text"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_energy_text"
         tools:text="72708383" />
 
     <TextView
-        android:id="@+id/profil_fragment_energy_text"
+        android:id="@+id/profil_fragment_kingdom_energy_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -31,12 +31,12 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_name"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_name"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_name" />
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_name"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_name"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_name" />
 
     <TextView
-        android:id="@+id/profil_fragment_text_name"
+        android:id="@+id/profil_fragment_kingdom_text_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -45,8 +45,8 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/profil_fragment_image"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_image" />
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_kingdom_image"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_image" />
 
     <TextView
         android:id="@+id/profil_fragment_text_t3kills"
@@ -72,9 +72,9 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_deathtroops"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_deathtroops"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_deathtroops"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_deathtroops"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_deathtroops"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_deathtroops"
         tools:text="122. 568" />
 
     <TextView
@@ -87,13 +87,13 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_t1kills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_t4kills"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_t1kills"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_t1kills" />
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_t4kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_t4kills" />
 
     <TextView
-        android:id="@+id/profil_fragment_text_killpoints"
+        android:id="@+id/profil_fragment_kingdom_text_killstogether"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -103,11 +103,11 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_currentlykills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_kills"
         app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_allkills" />
 
     <TextView
-        android:id="@+id/profil_fragment_T1kills"
+        android:id="@+id/profil_fragment_kingdom_T4kills"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="24dp"
@@ -118,14 +118,14 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_t1kills"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_t4kills"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/profil_fragment_text_t1kills"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_t1kills"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_kingdom_text_t4kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_t4kills"
         tools:text="17,718,642" />
 
     <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/profil_fragment_materialtoolbar"
+        android:id="@+id/profil_fragment_kingdom_materialtoolbar"
         android:layout_width="411dp"
         android:layout_height="60dp"
         android:background="@drawable/backroundtoolbar"
@@ -162,13 +162,13 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_allkills"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_t5kills"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_t5kills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_t5kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_t5kills"
         app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_allkills"
         tools:text="71,309,841" />
 
     <TextView
-        android:id="@+id/profil_fragment_killpoints"
+        android:id="@+id/profil_fragment_kingdom_killstogether"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="40dp"
@@ -178,14 +178,14 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_killpoints"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_killstogether"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/profil_fragment_text_killpoints"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_killpoints"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_kingdom_text_killstogether"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_killstogether"
         tools:text="766,943,466" />
 
     <TextView
-        android:id="@+id/profil_fragment_text_t5kills"
+        android:id="@+id/profil_fragment_kingdom_text_t5kills"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -209,10 +209,10 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_deathtroops"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_deathtroops"
         app:layout_constraintHorizontal_bias="0.59"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_deathtroops"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_deathtroops" />
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_deathtroops"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_deathtroops" />
 
     <TextView
         android:id="@+id/profil_fragment_id"
@@ -232,7 +232,7 @@
         tools:text="53585738" />
 
     <TextView
-        android:id="@+id/profil_fragment_text_alliance"
+        android:id="@+id/profil_fragment_kingdom_text_alliance"
         android:layout_width="70dp"
         android:layout_height="22dp"
         android:layout_marginTop="8dp"
@@ -241,15 +241,15 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_image"
-        app:layout_constraintEnd_toEndOf="@+id/Profil_fragment_text_kingdom"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_image"
+        app:layout_constraintEnd_toEndOf="@+id/Profil_fragment_kingdom_text_kingdom"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/Profil_fragment_text_kingdom"
-        app:layout_constraintTop_toBottomOf="@+id/Profil_fragment_text_kingdom"
+        app:layout_constraintStart_toStartOf="@+id/Profil_fragment_kingdom_text_kingdom"
+        app:layout_constraintTop_toBottomOf="@+id/Profil_fragment_kingdom_text_kingdom"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/profil_fragment_text_t1kills"
+        android:id="@+id/profil_fragment_kingdom_text_t4kills"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -260,31 +260,31 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_currentlykills" />
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_kills" />
 
     <TextView
-        android:id="@+id/profil_fragment_alliance"
+        android:id="@+id/profil_fragment_kingdom_alliance"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:fontFamily="casual"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_alliance"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_alliance"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_alliance"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_kingdom"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_kingdom"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_alliance"
         tools:text="Lele" />
 
     <ImageButton
-        android:id="@+id/profil_fragment_trailling_button"
+        android:id="@+id/profil_fragment_kingdom_trailling_button"
         android:layout_width="28dp"
         android:layout_height="47dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/backroundtoolbar"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_materialtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_materialtoolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8"
@@ -292,18 +292,18 @@
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/profil_fragment_kingdom"
+        android:id="@+id/profil_fragment_kingdom_kingdom"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:fontFamily="casual"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/Profil_fragment_text_kingdom"
+        app:layout_constraintBottom_toBottomOf="@+id/Profil_fragment_kingdom_text_kingdom"
         app:layout_constraintEnd_toEndOf="@+id/profil_fragment_id"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/profil_fragment_id"
-        app:layout_constraintTop_toTopOf="@+id/Profil_fragment_text_kingdom"
+        app:layout_constraintTop_toTopOf="@+id/Profil_fragment_kingdom_text_kingdom"
         app:layout_constraintVertical_bias="0.0"
         tools:text="1238" />
 
@@ -332,13 +332,13 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_energy_text"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_energy_text"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_energy_text"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_energy_text" />
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_energy_text"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_energy_text" />
 
     <TextView
-        android:id="@+id/profil_fragment_text_currentlykills"
+        android:id="@+id/profil_fragment_kingdom_text_kills"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -350,10 +350,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_image" />
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_image" />
 
     <TextView
-        android:id="@+id/profil_fragment_text_deathtroops"
+        android:id="@+id/profil_fragment_kingdom_text_deathtroops"
         android:layout_width="102dp"
         android:layout_height="24dp"
         android:layout_marginStart="32dp"
@@ -365,10 +365,10 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_killpoints" />
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_killstogether" />
 
     <TextView
-        android:id="@+id/profil_fragment_name"
+        android:id="@+id/profil_fragment_kingdom_name"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="45dp"
@@ -376,14 +376,14 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_name"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/profil_fragment_text_name"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_name"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_kingdom_text_name"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_name"
         tools:text="Niesi" />
 
     <TextView
-        android:id="@+id/Profil_fragment_text_kingdom"
+        android:id="@+id/Profil_fragment_kingdom_text_kingdom"
         android:layout_width="72dp"
         android:layout_height="22dp"
         android:layout_marginTop="8dp"
@@ -398,13 +398,13 @@
         app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_id" />
 
     <ImageView
-        android:id="@+id/profil_fragment_image"
+        android:id="@+id/profil_fragment_kingdom_image"
         android:layout_width="120dp"
         android:layout_height="141dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_materialtoolbar"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_materialtoolbar"
         app:srcCompat="@drawable/bildschirm_foto_2023_02_01_um_09_53_17" />
 
     <TextView
@@ -417,12 +417,12 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_text_t5kills"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_text_t5kills"
-        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_text_t5kills" />
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_t5kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_t5kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_t5kills" />
 
     <TextView
-        android:id="@+id/profil_fragment_deathtroops"
+        android:id="@+id/profil_fragment_kingdom_deathtroops"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:fontFamily="casual"
@@ -430,10 +430,10 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_deathtroops"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_killpoints"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_killpoints"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_deathtroops"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_deathtroops"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_killstogether"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_killstogether"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_deathtroops"
         tools:text="8.798.709" />
 
     <TextView
@@ -446,13 +446,13 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_t2kills"
-        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_T1kills"
-        app:layout_constraintStart_toStartOf="@+id/profil_fragment_T1kills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_T4kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_T4kills"
         app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_t2kills"
         tools:text="1,840,064" />
 
     <TextView
-        android:id="@+id/profil_fragment_t5kills"
+        android:id="@+id/profil_fragment_kingdom_t5kills"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:fontFamily="casual"
@@ -460,10 +460,10 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_text_t5kills"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_t5kills"
         app:layout_constraintEnd_toEndOf="@+id/profil_fragment_t4kills"
         app:layout_constraintStart_toStartOf="@+id/profil_fragment_t4kills"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_text_t5kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_t5kills"
         tools:text="24,698,618" />
 
     <TextView
@@ -484,24 +484,24 @@
         tools:text="796,320" />
 
     <ImageButton
-        android:id="@+id/profil_fragment_search_button"
+        android:id="@+id/profil_fragment_kingdom_search_button"
         android:layout_width="28dp"
         android:layout_height="0dp"
         android:background="@drawable/backroundtoolbar"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_trailling_button"
-        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_trailling_button"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_trailling_button"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_trailling_button"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_kingdom_trailling_button"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_trailling_button"
         app:srcCompat="@drawable/search_icon"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
-        android:id="@+id/profil_fragment_bag_button"
+        android:id="@+id/profil_fragment_kingdom_bag_button"
         android:layout_width="28dp"
         android:layout_height="0dp"
         android:background="@drawable/backroundtoolbar"
-        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_search_button"
-        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_search_button"
-        app:layout_constraintTop_toTopOf="@+id/profil_fragment_search_button"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_search_button"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_kingdom_search_button"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_search_button"
         app:srcCompat="@drawable/bag"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 

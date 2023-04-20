@@ -55,6 +55,9 @@
         <action
             android:id="@+id/kingdomsFragment_to_profilFragment"
             app:destination="@id/profilFragment" />
+        <action
+            android:id="@+id/kingdomsFragment_to_profilKingdomFragment"
+            app:destination="@id/profilKingdomFragment" />
     </fragment>
 
     <fragment
@@ -71,5 +74,20 @@
         <action
             android:id="@+id/membersFragment_to_profilFragment"
             app:destination="@id/profilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilKingdomFragment"
+        android:name="com.example.dataofRoK.ui.ProfilKingdomFragment"
+        android:label="ProfilKingdomFragment"
+        tools:layout="@layout/fragment_profil_kingdom">
+        <action
+            android:id="@+id/profilKingdomFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/profilKingdomFragment_to_profilFragment"
+            app:destination="@id/profilFragment" />
+        <action
+            android:id="@+id/KingdomFragment_to_membersFragment"
+            app:destination="@id/membersFragment" />
     </fragment>
 </navigation>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround">
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_energy_text"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_name"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_name"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_energy_text"
+        tools:text="Riddick" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_energy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="King:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_name"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_name" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_text_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Name:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_text_killstogether"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Kills together:"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_t5kills"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_t5kills"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="casual"
+        android:text="Engergy:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_materialtoolbar" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_totallyenergy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_name"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_name"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text"
+        tools:text="15945345234" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_T4kills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_t4kills"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_kingdom_text_t4kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_t4kills"
+        tools:text="55678678855" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/profil_fragment_kingdom_materialtoolbar"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:background="@drawable/backroundtoolbar"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="Kingdom of Leila"
+        app:titleCentered="true" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_killstogether"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_killstogether"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/profil_fragment_kingdom_text_killstogether"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_killstogether"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="105367864530" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_text_t5kills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="T5:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_t4kills"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_t4kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_t4kills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_text_alliance"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="casual"
+        android:text="Main Alliance:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_image"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_kingdom_alliance"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Profil_fragment_kingdom_text_kingdom"
+        app:layout_constraintTop_toBottomOf="@+id/Profil_fragment_kingdom_text_kingdom"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_text_t4kills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="T4:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_kills"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_kills"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_kills" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_alliance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_alliance"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_kingdom"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_kingdom"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_alliance"
+        tools:text="Lele" />
+
+    <ImageButton
+        android:id="@+id/profil_fragment_kingdom_trailling_button"
+        android:layout_width="28dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_materialtoolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        app:srcCompat="@drawable/trailing_icon"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_kingdom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Profil_fragment_kingdom_text_kingdom"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_energy"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_energy"
+        app:layout_constraintTop_toTopOf="@+id/Profil_fragment_kingdom_text_kingdom"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="1238" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_text_kills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="Kills:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_kingdom_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_alliance"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_alliance" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_text_deathtroops"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Death Troops:"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_killstogether"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_killstogether"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_text_killstogether" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="casual"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_name"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_kingdom_image"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_name"
+        tools:text="Kingdom of Leila" />
+
+    <TextView
+        android:id="@+id/Profil_fragment_kingdom_text_kingdom"
+        android:layout_width="69dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Kingdom:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_energy_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_energy_text"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_energy_text" />
+
+    <ImageView
+        android:id="@+id/profil_fragment_kingdom_image"
+        android:layout_width="110dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_fragment_kingdom_materialtoolbar"
+        app:srcCompat="@drawable/bild_20_04_23_um_14_47" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_deathtroops"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_deathtroops"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_killstogether"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_killstogether"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_deathtroops"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="8.798.709" />
+
+    <TextView
+        android:id="@+id/profil_fragment_kingdom_t5kills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_text_t5kills"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_T4kills"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_T4kills"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_text_t5kills"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="60456937865" />
+
+    <ImageButton
+        android:id="@+id/profil_fragment_kingdom_search_button"
+        android:layout_width="28dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_trailling_button"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_kingdom_trailling_button"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_trailling_button"
+        app:srcCompat="@drawable/search_icon"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/profil_fragment_kingdom_bag_button"
+        android:layout_width="28dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backroundtoolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_fragment_kingdom_search_button"
+        app:layout_constraintEnd_toStartOf="@+id/profil_fragment_kingdom_search_button"
+        app:layout_constraintTop_toTopOf="@+id/profil_fragment_kingdom_search_button"
+        app:srcCompat="@drawable/union"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Killpoints:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_text_deathtroops"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_text_deathtroops"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/profil_fragment_kingdom_deathtroops"
+        app:layout_constraintStart_toStartOf="@+id/profil_fragment_kingdom_deathtroops"
+        tools:layout_editor_absoluteY="448dp"
+        tools:text="59864595467" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
