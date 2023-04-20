@@ -7,8 +7,12 @@ class Repository {
     fun loadKingdoms (): List<Kingdoms>{
         return listOf(
 
-            Kingdoms("Kingdom of Galloway", 1001),
-            Kingdoms("Kingdom of Valencia",1003),
+            Kingdoms("Kingdom of Galloway", 1001,56483374734,53875647567,
+                3643746755,3546364734,18647564545,56758453574,
+                "DIMAgav2", "NK1!"),
+            Kingdoms("Kingdom of Valencia",1003,657784566,25363574354,
+                65654645356,475647563,16878786444,4356354436,
+                "Hawkeye50cal","V-RB"),
             Kingdoms("Hatami´s Hope",1017),
             Kingdoms("Kingdom of Asadal",1097),
             Kingdoms("Kingdom of Hattusha",1108),
